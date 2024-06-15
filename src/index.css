@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  .task-list-container::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+  }
+  
+  .task-list-container::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  /* Ensure the text container does not overflow and displays a scrollbar if necessary */
+.overflow-auto {
+    overflow: auto;
+  }
+  .whitespace-nowrap {
+    white-space: nowrap;
+  }
